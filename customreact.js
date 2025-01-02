@@ -5,8 +5,8 @@ function customrender(element,container){
         if(prop === 'children' ) continue;
         console.log(prop);
         domelement.setAttribute(prop,element.props[prop]);
-        container.appendChild(domelement);
     }
+        container.appendChild(domelement);
     
 }
 const reactelement={
